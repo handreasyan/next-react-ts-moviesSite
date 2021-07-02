@@ -1,0 +1,64 @@
+.film_edit_right_content {
+  width: 100%;
+  background-color: #e75ae7;
+  box-shadow: inset 12px 12px 12px #e334e3;
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-areas: " a a b b " "c c c c" "c c c c";
+  column-gap: 5px;
+  row-gap: 20px;
+}
+.image_content {
+  grid-area: a;
+  border: 5px solid purple;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.image_content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.description_content {
+  padding-left: 10px;
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  justify-content: space-around;
+}
+.description_content_item {
+  border-bottom: 1px solid silver;
+  padding-bottom: 5px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  color: purple;
+}
+.description_content_item span {
+  display: inline-block;
+  padding-left: 10px;
+  font-weight: 100;
+  color:white;
+}
+.description_content_item a {
+  display: inline-block;
+  padding-left: 10px;
+  font-weight: 100;
+  color:white;
+  text-decoration: underline;
+}
+.forMovie {
+  grid-area: c;
+  letter-spacing: 1px;
+  line-height: 15px;
+  font-weight: 600;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+.overview{
+  color: white;
+}

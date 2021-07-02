@@ -1,0 +1,5 @@
+.right_content{
+  width: 69%;
+  border-left:3px solid purple;
+  box-shadow: inset 5px -10px 10px purple;
+}
