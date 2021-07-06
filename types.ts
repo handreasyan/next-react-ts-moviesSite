@@ -40,7 +40,7 @@ export type FilmType = {
   original_language: string,
   original_title: string,
   overview: string,
-  popularity: 372.7,
+  popularity:number,
   poster_path: string,
   status: string,
   tagline: string,
